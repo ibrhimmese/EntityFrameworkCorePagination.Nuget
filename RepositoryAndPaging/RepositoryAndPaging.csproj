@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>IM-GenericRepository</PackageId>
+    <Title>GenericRepository Paging DynamicFilter BaseEntity TimeStamps</Title>
+    <Version>1.01</Version>
+    <Authors>IBRAHIM MESE</Authors>
+    <Company>IBRAHIM MESE</Company>
+    <Product>GenericRepository Paging DynamicFilter BaseEntity TimeStamps</Product>
+    <Description>GenericRepository Paging DynamicFilter BaseEntity TimeStamps</Description>
+    <Copyright>Copyright 2024</Copyright>
+    <PackageProjectUrl>www.linkedin.com/in/ibrahimmese</PackageProjectUrl>
+    <PackageIcon>gimp-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/ibrhimmese/EntityFrameworkCorePagination.Nuget</RepositoryUrl>
+    <PackageTags>generic repository</PackageTags>
+    <PackageReleaseNotes>Generic Nuget Package</PackageReleaseNotes>
+    <NeutralLanguage>tr-TR</NeutralLanguage>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ibrah\Downloads\gimp-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
